@@ -2,7 +2,8 @@
 import pandas as pd
 import numpy as np
 from datetime import datetime
-import matplotlib.pyplot as plt
+import matplotlib as mtl
+plt = mtl.pyplot
 # %matplotlib inline
 import seaborn as sns
 import warnings
