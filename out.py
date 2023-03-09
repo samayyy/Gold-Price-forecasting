@@ -60,7 +60,7 @@ pickle.dump(model, pickle_out)
 pickle_out.close()
 
 # %%
-%%writefile for.py
+# %%writefile for.py
  
 import pickle
 import streamlit as st
